@@ -7,21 +7,32 @@
     height: 100vh;
 
     img {
-        width: 300px;
-        height: 300px;
-        border-radius: 300px;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        @media (min-width: 768px) {
+            width: 300px;
+            height: 300px;
+            border-radius: 300px;         
+        }
     }
     
     h1 {
-        font-size: 3rem; 
+        font-size: 1.1rem; 
         color: var(--pink-900);
         margin-top: 2rem;
+        @media (min-width: 768px) {
+            font-size: 3rem; 
+        }
     }
 
     h2 {
-        font-size: 2.25rem;  
+        font-size: 1rem; 
         margin-top: 1rem;
         color: var(--purple-900);
+        @media (min-width: 768px) {            
+            font-size: 2.25rem;  
+        }
     }
 }
 .socialMidias {

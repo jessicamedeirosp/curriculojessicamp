@@ -6,8 +6,11 @@
 
     &Skills {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         justify-content: space-evenly;
+        @media (min-width: 767px) {
+            grid-template-columns: 1fr 1fr;
+        }        
     }
 
     &Courses {
