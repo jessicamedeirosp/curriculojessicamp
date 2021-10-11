@@ -8,7 +8,7 @@ export default function Skills({ skills }: skillsProps) {
     return (
         <ul className={styles.skills}>
             {skills.map(skill =>
-                <li>{skill}</li>
+                <li key={skill}>{skill}</li>
             )}           
         </ul>
     );
