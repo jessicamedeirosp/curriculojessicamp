@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* breakpoint */
+    --md: 768px;
+    --xl: 1200px;
+
+    /* colors */
+    --white-900: #f8f8f2;
+    --black-900: #282A36;
+    --gray-900: #44475a;
+    --pink-900: #FF79C6;
+    --purple-900: #BD93F9;
+    --cyan-900: #8BE9FD;
+    --yellow-900: #F1FA8C;
+    --orange-900: #ffb86c;
+    --green-900: #50fa7b;
+}
+
+
+@media(max-width: var(--xl)) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: var(--md)) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+body {
+    background-color: var(--black-900);
+    color: var(--white-900);
+}
+
+body, input, textarea, select, button {
+    font: 400 1rem 'Fira Code', monospace;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+ul {
+    list-style: square;
+}
+
+.container {
+    max-width: var(--xl);
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer {
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

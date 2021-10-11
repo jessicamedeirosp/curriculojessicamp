@@ -1,0 +1,22 @@
+.wrapper {
+   
+    & + .wrapper {
+        margin-top: 3rem;
+    }
+
+    &Skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-evenly;
+    }
+
+    &Courses {
+       
+        ul, ul li{
+            color: var(--green-900);
+        }
+        small {
+            color: var(--orange-900);
+        }
+    }
+}

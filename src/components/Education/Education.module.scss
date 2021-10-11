@@ -1,0 +1,15 @@
+.education {
+    & + .education {
+        margin-top: 1rem;
+    } 
+    
+    h4 {
+        font-weight: bold;
+        text-transform: uppercase;
+        color: var(--purple-900);
+    }
+
+    small {
+        color: var(--yellow-900);
+    }
+}

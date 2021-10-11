@@ -1,0 +1,39 @@
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+    }
+    
+    h1 {
+        font-size: 3rem; 
+        color: var(--pink-900);
+        margin-top: 2rem;
+    }
+
+    h2 {
+        font-size: 2.25rem;  
+        margin-top: 1rem;
+        color: var(--purple-900);
+    }
+}
+.socialMidias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    a {
+        display: block;
+
+        & + a {
+            margin-left: 2rem;
+        }
+    }
+}
