@@ -29,7 +29,7 @@ const skills = [
   {
     title: 'Soft Skills',
     skills: [
-        'Boa comunicação e escritada',  
+        'Boa comunicação e escrita',  
         'Proatividade',
         'Flexbilidade',
         'Criatividade',
@@ -116,8 +116,8 @@ const courses = [
   },
   {
     name: 'Inglês',
-    link: 'https://wiseup.com/pt/online',
-    institution: 'wise up',
+    link: '#',
+    institution: 'Particular',
     teacher: ''
   }
 ];
