@@ -31,7 +31,7 @@ const skills = [
     skills: [
         'Boa comunicação e escrita',  
         'Proatividade',
-        'Flexbilidade',
+        'Flexibilidade',
         'Criatividade',
         'Capacidade de liderança',
         'Resiliência'
